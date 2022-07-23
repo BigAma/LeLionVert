@@ -1,5 +1,4 @@
 import React from 'react'
-import './app.css'
 
 import Nav from './components/Nav/Nav'
 import Produit from './components/Produit/Produit'
