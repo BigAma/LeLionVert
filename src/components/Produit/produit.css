@@ -58,3 +58,26 @@
         right: 45px;
     }
 }
+
+.credits{
+    position: relative;
+    background-color: orangered;
+    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.credits p {
+    margin: 0;
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+        overflow-x: hidden;
+    }
+    .app{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
