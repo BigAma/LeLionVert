@@ -1,0 +1,31 @@
+.carrousel{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5em;
+}
+
+.carrousel-item-wrapper{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.chevronGauche{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.chevronDroit{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    cursor: pointer;
+    font-size: 2em;
+}

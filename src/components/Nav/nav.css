@@ -1,0 +1,40 @@
+.myNav{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.marque{
+    padding-top: 15px;
+}
+
+.humburger-menu{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.humburger-menu:hover{
+    color: green;
+}
+
+.logo{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    width: 10%;
+    height: auto;
+}
+
+.logo-img{
+    cursor: pointer;
+    width: max-content;
+    height: 5vh;
+}
+
+@media only screen and  (min-width: 900px){
+    .logo-img{
+        height: 6vh;
+    }
+}

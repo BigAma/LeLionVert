@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './app.css'
 
-function App() {
+import Nav from './components/Nav/Nav'
+import Produit from './components/Produit/Produit'
+import Carrousel from './components/Carrousel/Carrousel'
+import Footer from './components/Footer/Footer'
+import Newsletter from './components/Newsletter/Newsletter'
+
+export const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+        <div className='header'>
+            <Nav />
+            <Produit />
+        </div>
+
+        <Carrousel />
+
+        <Newsletter />
+
+        <Footer />
+
+        <div className='credits'>
+          <p>Tout droits reserver. Ce site a ete cree avec Coeur par UP-SET</p>
+        </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
