@@ -63,7 +63,6 @@ const Description = (props) => {
         <p>{descriptions[props.produit][descp].dcp}</p>
       </div>
 
-      <hr />
     </div>
   )
 }
