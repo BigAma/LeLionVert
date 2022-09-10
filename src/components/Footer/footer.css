@@ -62,4 +62,11 @@
     .form-form{
         width: 50%;
     }
+
+    .footer-contact-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1em;
+    }
 }
