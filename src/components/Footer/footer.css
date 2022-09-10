@@ -53,9 +53,9 @@
 
 .footer-contact-link{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    padding: 3em;
+    padding: 1em;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -65,8 +65,8 @@
 
     .footer-contact-link{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
-        padding: 1em;
-    }
+        padding: 3em;
+    }    
 }
