@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import { BsInstagram, BsTelephoneFill, BsWhatsapp } from 'react-icons/bs'
 
 import './footer.css'
 
@@ -19,13 +20,30 @@ const Footer = () => {
   };
 
   return (
-    <div className='footer bg-dark'>
+    <div id='footer-id'className='footer bg-dark'>
       <div className='footer-header'>
         <h1>Le Lion Vert</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod rerum nam quae laboriosam. 
-            Ullam error minus, nisi dolorem consectetur 
-        </p>
+        <p>Nous contactez ? Rien de plus facile :   </p>
+        <div className='footer-contact-link'>
+          <p>
+            <BsInstagram />
+            <strong>        Instagram :  </strong>
+            <br></br> 
+            <a href='https://instagram.com/lionvertdjibouti?igshid=YmMyMTA2M2Y='>   Le Lion Vert Djibouti</a>
+          </p>
+          <p>
+            <BsTelephoneFill />
+            <strong>        Telephone :  </strong> 
+            <p>   +253 77 60 00 90</p>
+          </p>
+          <p>
+            <BsWhatsapp />
+            <strong>        Whatsapp :  </strong> 
+            <p>   +221 775 531 873</p>
+          </p>
+        </div>
+
+        <p>Ou en remplissant ce formulaire que nous recevrons par email :  </p>
       </div>
 
       <div className='contact-form'>

@@ -6,7 +6,7 @@ import {BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill} from 'react-icons
 
 import Ag from '../../assets/Artemisia-annua-gélules.png'
 import Ai from '../../assets/Artemisia-annua-infusettes.png'
-import Cg from '../../assets/Corossol-gélules.png'
+import Bi from '../../assets/Bissap-infusettes.png'
 import Ci from '../../assets/Corossol-infusettes.png'
 import Mg from '../../assets/Moringa-gélules.png'
 import Mi from '../../assets/Moringa-infusettes.png'
@@ -15,7 +15,7 @@ import Mi from '../../assets/Moringa-infusettes.png'
 import './produit.css'
 
 const Produit = () => {
-  const produits = [{titre:'Artémisia Annua Géllules x63', img: Ag}, {titre:'Artémisia Annua Infusettes x20', img: Ai}, {titre:'Graviola Corossol Géllules x60', img: Cg},
+  const produits = [{titre:'Artémisia Annua Géllules x63', img: Ag}, {titre:'Artémisia Annua Infusettes x20', img: Ai}, {titre:'Bissap Infusettes x20', img: Bi},
   {titre:'Graviola Corossol Infusettes x20', img: Ci}, {titre:'Moringa Oleifera Géllules x60', img: Mg}, {titre:'Moringa Oleifera Infusettes x20', img: Mi}]
 
   

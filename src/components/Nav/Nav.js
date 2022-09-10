@@ -22,7 +22,7 @@ const Nav = () => {
             </ul>
         </div>
         <div className='humburger-menu'>
-            <MdContacts />
+            <MdContacts href='#footer-id'/>
         </div>
     </div>
   )

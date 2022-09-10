@@ -4,8 +4,8 @@ import './description.css'
 
 const Description = (props) => {
 
-  const descriptionAG = [{titre:'Artemisia Annua est une plante 100% naturelle et vrac, tiges et feuilles pour tisane et décoction.', dcp:"Ce sont des chercheurs de l'université de Washington, aux États-Unis, sous la direction des Drs Narenda Singh et Henry Lai, qui on tire cette conclusion de leur vaste étude. Cette plante est une armoise, Artemesia Annua, que la MTC utilise depuis des millénaires pour traiter le paludisme, a des propriétés mises en lumière dans les années 1960-70 par des chercheurs de l'Académie de médecine traditionnelle chinoise qui avaient extrait le principe actif, l'artemesine, a basse temperature et par l'ether."},
-    {titre: 'Proprietes et Bienfaits', dcp:"Traitement antipaludique en préventif et curatif, combat la fièvre, puissant vermifuge, anti-oxydant (protection contre les maladies cardiovasculaires, cancers et vieillissement de la peau), nettoie et stimule le flux sanguin, apaise les regles douloureuses, diabete type 2 (diminue le taux de glucose dans le sang), bilharziose, ulcere de Buruli, douleurs articulaires, douleurs musculaires, effets antibacteriens, tonifiant, diuretique, stimule la secretion du suc gastrique, favorise l'appetit, soulage les troubles digestifs (coliques, diarrhees chroniques, douleurs viscerales, sensation de distension, flatulences), constipation, anti-spasmodique, en soutien aux traitements anti-cancer (du sein, de la prostate et des poumons associe a des complements de fer bio-disponibles), bain de bouche pour les affections bucco-dentaires, fievre typhide."},
+  const descriptionAG = [{titre:'Artemisia Annua Gellule', dcp:"L'artemisia annua est une plante glabre originaire de chine. L'artemisia est propose sous forme de tisanes ou comme complement alimentaire. Cette plante contient plusieurs substance active, mais elle est réputée à travers le monde pour l'artémisinine qu'elle contient, une substance active utilisée pour lutter, en autre, contre le paludisme (malaria) et certaines formes de cancer."},
+    {titre: 'Proprietes et Bienfaits', dcp:"L'artemisia annua est utilisée dans le traitement des différentes formes de paludisme. Cette plante possède également des propriétés antivirales ainsi qu'un effet stimulant immunitaire sur plusieurs infections. Outre ses bienfaits sur le système immunitaire et le cancer, l' Artémisia Annua se révèle également très efficace dans le traitement de diverses autres pathologies qui attaquent l'organisme. En effet, elle soigne les troubles intestinaux et digestifs : flatulences, vers intestinaux, diarrhées."},
     {titre: 'En Savoir Plus', dcp:"Qualite: Pure, naturelle et biologique, sans aucun additif, agriculture sans pesticide | Pays d'origine: Senegal | Conditions de conditionnement: Gelules en gelatine de boeuf, 400mg | Conditions de conservations: Stocker dans un endroit frais et sec, a l'abri de l'humidite, de tout agent oxydant et d'une source lumineuse."}
   ]
 
@@ -14,8 +14,8 @@ const Description = (props) => {
     {titre: 'En Savoir Plus', dcp:'h'}
   ]
 
-  const descriptionCG = [{titre:'Courrousol Gellule', dcp:"Les feuilles de Graviola contiennent des substances intéressantes telles que les acétogenines qui détiennent de puissantes activités anti-inflammatoires, antivirales (herpes), anti-bactériennes, anti-parasitaires, pesticides, anthelminthique et antimicrobienne. Les feuilles du Graviola Corossol contiennent aussi des quantités appréciables de vitamines, entre autres la vitamine E et la vitamine C, B1 et B2."},
-    {titre: 'Proprietes et Bienfaits', dcp:"Douleurs et inflammations chroniques, dépression, spasmes musculaires, douleurs arthritiques et articulaires, diabète, hypertension, infections microbiennes et parasitiques, problèmes digestives, insomnies, infections des voies urinaires, aide à évacuer l'acide urique du sang (la Goutte), maladies hépatiques, problèmes cutanés (eczéma, psoriasis,...). "},
+  const descriptionBi = [{titre:'Bissap Infusettes', dcp:"L'infusion de fleurs d'hibiscus (bissap) est digestive et diurétique. Elle est fortement conseillée pour le bon fonctionnement de l'intestin. Tres efficace contre les troubles digestifs et la constipation, cette boisson aide au transit intestinale et nettoie le systeme digestif (leger laxatif). Pour ceux souffrant d'hypertension, ou tout simplement pour ceux qui veulent la prevenir, l'infusion d'hibiscus représente un remede naturel de choix. Les etudes ont montre une diminution de la pression arterielle de la meme facon que certains medicaments et une dimunition du taux de 'mauvais' cholestérol"},
+    {titre: 'Proprietes et Bienfaits', dcp:"Si vous avez tendance a faire de l'hypertension, consommer du bissap peut vous etre d'une aide precieuse. En effet, la boisson a base d'hibiscus fait diminuer la pression arterielle. Il arrive que votre volume sanguin soit trop elevé. Des lors, votre pression arterielle augmente et les risques d'AVC aussi."},
     {titre: 'En Savoir Plus', dcp:'h'}
   ]
 
@@ -34,7 +34,7 @@ const Description = (props) => {
     {titre: 'En Savoir Plus', dcp:'h'}
   ]
 
-  const descriptions = [ descriptionAG, descriptionAI, descriptionCG, descriptionCI, descriptionMG, descriptionMI]
+  const descriptions = [ descriptionAG, descriptionAI, descriptionBi, descriptionCI, descriptionMG, descriptionMI]
 
   const [descp, setDescp] = useState(0)
 

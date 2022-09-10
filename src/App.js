@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsSuitHeartFill } from 'react-icons/bs'
 
 import Nav from './components/Nav/Nav'
 import Produit from './components/Produit/Produit'
@@ -16,7 +17,7 @@ export const App = () => {
          <Footer />
 
         <div className='credits'>
-          <p>Tout droits reserver. Ce site a ete cree avec Coeur par UP-SET</p>
+          <p>Tout droits réserver. Ce site a ete crée avec  <BsSuitHeartFill/>  par <strong>UP-SET</strong></p>
         </div>
     </div>
   )
