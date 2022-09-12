@@ -40,7 +40,7 @@ const Produit = () => {
     <div >
       <div className='produit'>
         <div className='img-produit'>
-          <img src={produits[element].img} alt='Complement Alimentaire' width='300px'></img>
+          <img src={produits[element].img} alt='Complement Alimentaire' width='350px' height='350px'></img>
         </div>
 
         <div className='specifications'>

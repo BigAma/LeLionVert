@@ -7,7 +7,7 @@
     text-align: center;
     background: url('../../assets/bg.png') center/cover;
     color: white;
-    height: 500px;
+    height: auto;
 }
 
 .img-produit{
@@ -21,7 +21,7 @@
 
 .btnchoix{
     position: absolute;
-    top: 30%;
+    top: 250px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -72,7 +72,7 @@
     margin: 0;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1200px) {
     body{
         overflow-x: hidden;
     }
