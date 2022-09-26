@@ -4,22 +4,21 @@ import Description from '../Description/Description'
 
 import {BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill} from 'react-icons/bs'
 
-import Ag from '../../assets/Artemisia-annua-gélules.png'
-import Ai from '../../assets/Artemisia-annua-infusettes.png'
-import Bi from '../../assets/Bissap-infusettes.png'
-import Ci from '../../assets/Corossol-infusettes.png'
-import Mg from '../../assets/Moringa-gélules.png'
-import Mi from '../../assets/Moringa-infusettes.png'
+import Ag from '../../assets/Artemisia-annua-gélules-min.png'
+import Ai from '../../assets/Artemisia-annua-infusettes-min.png'
+import Bi from '../../assets/Bissap-infusettes-min.png'
+import Ci from '../../assets/Corossol-infusettes-min.png'
+import Mg from '../../assets/Moringa-gélules-min.png'
+import Mi from '../../assets/Moringa-infusettes-min.png'
 
 
 import './produit.css'
 
 const Produit = () => {
-  const produits = [{titre:'Artémisia Annua Géllules x63', img: Ag}, {titre:'Artémisia Annua Infusettes x20', img: Ai}, {titre:'Bissap Infusettes x20', img: Bi},
+  const produits = [{titre:'Bissap Infusettes x20', img: Bi}, {titre:'Artémisia Annua Infusettes x20', img: Ai}, {titre:'Artémisia Annua Géllules x63', img: Ag},
   {titre:'Graviola Corossol Infusettes x20', img: Ci}, {titre:'Moringa Oleifera Géllules x60', img: Mg}, {titre:'Moringa Oleifera Infusettes x20', img: Mi}]
 
-  
-  const length = 6
+  const length = produits.length
 
   const [element, setElement ] = useState(0)
 

@@ -25,22 +25,22 @@ const Footer = () => {
         <h1>Le Lion Vert</h1>
         <p>Nous contactez ? Rien de plus facile :   </p>
         <div className='footer-contact-link'>
-          <p>
+          <div className='footer-contact-link-1'>
             <BsInstagram />
             <strong>        Instagram :  </strong>
-            <br></br> 
+            <br/>
             <a href='https://instagram.com/lionvertdjibouti?igshid=YmMyMTA2M2Y='>   Le Lion Vert Djibouti</a>
-          </p>
-          <p>
+          </div>
+          <div>
             <BsTelephoneFill />
             <strong>        Telephone :  </strong> 
             <p>   +253 77 60 00 90</p>
-          </p>
-          <p>
+          </div>
+          <div>
             <BsWhatsapp />
             <strong>        Whatsapp :  </strong> 
             <p>   +221 775 531 873</p>
-          </p>
+          </div>
         </div>
 
         <p>Ou en remplissant ce formulaire que nous recevrons par email :  </p>
